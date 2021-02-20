@@ -1,0 +1,21 @@
+{
+  "name": "jc-in-modules",
+  "version": "0.0.5",
+  "description": "Sample library fo LI course",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Juansecu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
